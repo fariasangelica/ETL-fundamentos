@@ -9,7 +9,21 @@
 > - Transformação: Envolve pegar esses dados, limpá-los e colocá-los em um formato comum, para que possam ser armazenados em um banco de dados, repositórios de dados, armazenamento de dados ou data lakes de destino. A limpeza normalmente envolve extrair registros duplicados, incompletos ou obvimanete incorretos.
 > - Carregamento: É o processo de inserir os dados formatados no banco de dados, repositório de dados, armazenamento de dados ou data lake de destino.
 >
-> 
+> ### O que é ELT - Extract, Load e Transformação
+>
+> ### Como os processos ELT e ETL diferem entre si?
+> Processo ETL
+>   1. Você extrai dados brutos de várias fontes.
+>   2. Você usa um servidor de processamento secundário para transformar esses dados.
+>   3. Você carrega esses dados em um banco de dados de destino.
+
+![image](https://github.com/user-attachments/assets/3998b2a8-d9a2-4484-b5af-db51e74d654e)
+
+> Processo ELT
+> 1. vOCÊ EXTRAI DADOS BRUTOS DE VÁRIAS FONTES
+> 2. Você o carrega em seu estado natural em um data warehouse ou data lake.
+> 3. Você o transforma conforme necessário enquanto está no sistema de destino
+
 
 
 
